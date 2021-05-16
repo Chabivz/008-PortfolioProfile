@@ -1,34 +1,29 @@
 # 008-PortfolioProfile
 
-## Table of Contents
+-   My updated porfolio profile that will showcase all of the skills I have learned since week three of my coding bootcamp @ University of Washington.
 
-
-
-# Project 006 : Weather Dashboard
-
-- The Weather dashboard is a tool for all users to give the weather update for the selected city. The dashboard will display the city, date, humidity, temperature and the next 5 day forecast. 
 
 ## Table of Contents
 
 - [About the Project](#about-the-project)
-- [Installation](#installation)
+- [Design](#Design)
 - [Usage](#usage)
-- [Credit](#credit)
+
 
 ## About the Project
 
-- This project is to have the user to be able to familiarize with the use if fetch and getting to know how to operate on APIs. 
+- This project will show About me, Work, Contact Me and Resume
+- Responsive, mobile-responsive user interface.
+- Links to Github and LinkedIn profile.
 - Built with the following technologies:
     - [BootStrap](https://getbootstrap.com/) - CSS Framework 
     - [jQuery](https://jquery.com/)
-    - [Moments.js](https://momentjs.com/)
+    - [Date.js](https://github.com/datejs/Datejs)
     - HTML, CSS, and Javascript
-- When the you typed the City on the Textbox and clicked the Search button the screen will generate today's weather and the 5 day forecast. 
-- 
 
-## Installation
+## Design
 
-- Open [Weather Dashboard](https://chabivz.github.io/006-WeatherDashboard/) 
+
 
 ## Usage
 

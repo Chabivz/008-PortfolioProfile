@@ -1,18 +1,55 @@
 
+body {
+  overflow-y: scroll;
+}
+
+#name-p {
+  font-family: 'Roboto Slab', serif;
+}
 
 .welcome-page {
-    height: 1080px;
+    height: 100%;
     background-color: aquamarine;
 }
 
 .work-container {
-    height: 1080px;
+    height: 100%;
     background-color: burlywood;
     width: 100%;
 }
 
 .contact-me-container {
-    height: 1080px;
+    height: 100%;
     background-color:cornsilk;
     width: 100%;
 }
+
+.resume-container {
+  height: 100%;
+  background-color:cornsilk;
+  width: 100%;
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 900px) {
+    .welcome-page, .work-container, .contact-me-container {
+      background-color: cornsilk;
+      
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .welcome-page, .work-container, .contact-me-container {
+      background-color:ghostwhite;
+      
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .welcome-page, .work-container, .contact-me-container {
+      background-color: blanchedalmond;
+      
+    }
+  }
