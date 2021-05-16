@@ -1,0 +1,18 @@
+
+
+.welcome-page {
+    height: 1080px;
+    background-color: aquamarine;
+}
+
+.work-container {
+    height: 1080px;
+    background-color: burlywood;
+    width: 100%;
+}
+
+.contact-me-container {
+    height: 1080px;
+    background-color:cornsilk;
+    width: 100%;
+}
