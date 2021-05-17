@@ -1,9 +1,26 @@
+/* Nav Bar */
+
+.navbar {
+  width: 70%;
+  
+}
+
+#switch-light {
+  width: 20px;
+  height: 20px;
+}
+
+.social-icons {
+  height: 50px;
+  width: 50px;
+  padding-left: 5px;
+}
 
 body {
   overflow-y: scroll;
 }
 
-#name-p {
+#name-span {
   font-family: 'Roboto Slab', serif;
 }
 
@@ -30,6 +47,14 @@ body {
   width: 100%;
 }
 
+.about-me, .hello-world { 
+  font-size: 3.5rem;
+}
+
+.info-about-me {
+  font-size: 1.5rem;
+}
+
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 900px) {
@@ -53,3 +78,17 @@ body {
       
     }
   }
+
+
+
+  /* Cards */
+
+  .card {
+    width: 20%;
+    height: 450px;
+  }
+
+.contact-content-card {
+  width: 500px;
+}
+

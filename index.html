@@ -7,25 +7,80 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/animista.css">
         <link rel="stylesheet" href="./assets/css/style.css">
+
     </head>
     
+    
     <body>
+      <!-- Navigation Bar from Bulma -->
+      <div class="nav-container is-flex is-justify-content-center ">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+        
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item">
+                Chris
+              </a>
+            </div>
+            <div class="navbar-end">
+        
+            <div class="navbar-item">
+              
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Work
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Resume
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Contact
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                
+              </a>
+              <p>
+                <img id="switch-light" src="./assets/images/003-sun.svg" alt="Sun Icon">
+              </p>
+            
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+       
+
       <main>
-      <div class="head-spacers"></div>
 
       <!-- About Me Welcome Page -->
       <div class="welcome-page">
       <section class="section">
         <div class="container">
-          <h1 class="title">
-            Hello World
+          <h1 class="hello-world">
+            Hello!
           </h1>
-          <p id="name-p" class="subtitle">
-            Hi, I'm Chris Abiva, a Web Developer!
+          <p id="name-p" class="about-me">
+            Hi, I'm <span class="text-pop-up-top" id="name-span">Chris Abiva</span>, <br> A Web Developer!
+          </p>
+          <p class="block info-about-me">
+            I have this idea of creating a website in able to be of service of others. <br>  Current Full-Stack student through BootCamp Spot @ University of Washington
           </p>
           <p>
-            I have this idea of creating a website in able to be of service of others. <br>  Current Full-Stack student through BootCamp Spot @ University of Washington
+            <a href=""><img class="block social-icons" src="./assets/images/027-linkedin.svg" alt=""></a>
+            <a href=""><img class="block social-icons" src="./assets/images/029-instagram.svg" alt=""></a>
+            <a href=""><img class="block social-icons" src="./assets/images//github.svg" alt=""></a>
           </p>
         </div>
       </section>
@@ -38,11 +93,76 @@
           <h1 class="title">
             Work
           </h1>
-          <p class="subtitle">
-            
-          </p>
+          
         </div>
       </section>
+      <!-- Cards -->
+      <div class="is-flex is-justify-content-space-around">
+      <div class="card">
+        <div class="card-content">
+          <p class="title">
+            “Weather Dashboard”
+          </p>
+        </div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <span>
+              View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+            </span>
+          </p>
+          <p class="card-footer-item">
+            <span>
+              Share on <a href="#">Facebook</a>
+            </span>
+          </p>
+        </footer>
+      </div>
+
+      <!-- Card#2 -->
+      <div class="card">
+        <div class="card-content">
+          <p class="title">
+            “Mood Tracker”
+          </p>
+        </div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <span>
+              View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+            </span>
+          </p>
+          <p class="card-footer-item">
+            <span>
+              Share on <a href="#">Facebook</a>
+            </span>
+          </p>
+        </footer>
+      </div>
+
+      <!-- Card # 3 -->
+
+      <div class="card">
+        <div class="card-content">
+          <p class="title">
+            “Password Generator”
+          </p>
+        </div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <span>
+              View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
+            </span>
+          </p>
+          <p class="card-footer-item">
+            <span>
+              Share on <a href="#">Facebook</a>
+            </span>
+          </p>
+        </footer>
+      </div>  
+    </div>
+
+
     </div>
 
     <!-- Contact Me -->
@@ -50,13 +170,62 @@
       <section class="section">
         <div class="container">
           <h1 class="title">
-            Contact Me
+            Contact
           </h1>
           <p class="subtitle">
             
           </p>
         </div>
       </section>
+      <div class="is-flex is-justify-content-space-around contact-info-container">
+        <div class="contact-content-card">
+          <section class="section">
+            <div class="container">
+              <h1 class="title">
+                Wanna know more?
+              </h1>
+              <p class="subtitle">
+                What to know more about my design process? 
+                <br> Have an exciting project that could use my help?
+                <br> Drop me a line and let's chat!
+              </p>
+            </div>
+          </section>
+        </div>
+        <!--  -->
+        <div class="contact-content-card">
+          <div class="control block has-icons-right">
+            <p class="subtitle">Name</p>
+            <input class="input" type="name" placeholder="Name">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-medium is-right">
+              <i class="fas fa-check"></i>
+            </span>
+          </div>
+          
+          <div class=" control block has-icons-right">
+            <p class="subtitle">Email Address</p>
+            <input class="input" type="email" placeholder="Email">
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-medium is-right">
+              <i class="fas fa-check"></i>
+            </span>
+          </div>
+
+          <div class="block control">
+            <p class="subtitle">Your Message</p>
+            <textarea class="textarea is-medium is-hovered" placeholder="Message"></textarea>
+          </div>
+          <div class="is-flex is-justify-content-space-around ">
+          <button class="button is-success is-hovered">Send</button>
+        </div>
+        </div>
+
+      </div>
+
     </div>
 
     <!-- Resume -->
