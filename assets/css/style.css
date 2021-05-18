@@ -2,7 +2,14 @@
 
 .navbar {
   width: 70%;
-  
+  box-shadow: 20ps 20ox 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  position: absolute;
 }
 
 #switch-light {
@@ -16,36 +23,56 @@
   padding-left: 5px;
 }
 
-body {
-  overflow-y: scroll;
+
+
+.welcome-page {
+  content: '';
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(#f00,#f0f);
+  clip-path: circle(10% at right 30% 10%);
   
 }
+
+/* .welcome-page::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#2196f3,#e91e63);
+  clip-path: circle(25% at 30% 10%);
+} */
+
 
 #name-span {
   font-family: 'Roboto Slab', serif;
 }
-
+/* Page DIVS */
 .welcome-page {
-    height: 100%;
-    background-color: aquamarine;
+    height: 50%;
 }
 
 .work-container {
-    height: 100%;
-    background-color: burlywood;
+    height: 50%;
+    background: linear-gradient(#f0f,#f00);
     width: 100%;
 }
 
 .contact-container {
-    height: 100%;
-    background-color:cornsilk;
+    height: 50%;
     width: 100%;
+    background: linear-gradient(#f00,#f0f);
 }
 
 .resume-container {
-  height: 100%;
-  background-color: #88BDBC;
+  height: 50%;
   width: 100%;
+  background: linear-gradient(#f0f,#f00);
 }
 
 .about-me, .hello-world { 
@@ -87,6 +114,13 @@ body {
   .card {
     width: 20%;
     height: 450px;
+    box-shadow: 20ps 20ox 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
   }
 
 .contact-content-card {
