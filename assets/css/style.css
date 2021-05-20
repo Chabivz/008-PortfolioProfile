@@ -1,4 +1,7 @@
 /* Nav Bar */
+html * {
+  color: #fff;
+}
 
 .navbar {
   width: 70%;
@@ -27,50 +30,36 @@
 
 .welcome-page {
   content: '';
-  
   top: 0;
   left: 0;
   width: 100%;
   height: 50%;
   background: linear-gradient(#f00,#f0f);
   clip-path: circle(10% at right 30% 10%);
-  
 }
-
-/* .welcome-page::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(#2196f3,#e91e63);
-  clip-path: circle(25% at 30% 10%);
-} */
-
 
 #name-span {
   font-family: 'Roboto Slab', serif;
 }
 /* Page DIVS */
 .welcome-page {
-    height: 50%;
+    height: 100%;
 }
 
 .work-container {
-    height: 50%;
+    height: 100%;
     background: linear-gradient(#f0f,#f00);
     width: 100%;
 }
 
 .contact-container {
-    height: 50%;
+    height: 100%;
     width: 100%;
     background: linear-gradient(#f00,#f0f);
 }
 
 .resume-container {
-  height: 50%;
+  height: 100%;
   width: 100%;
   background: linear-gradient(#f0f,#f00);
 }
@@ -127,3 +116,16 @@
   width: 500px;
 }
 
+.card-content .title, .subtitle {
+  color: white;
+}
+
+.resume-doc-container {
+  width: 100%; 
+  height: 800px;
+}
+
+.resume-iframe {
+  width: 50%;
+  height: 50%;
+}
